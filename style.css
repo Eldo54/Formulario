@@ -1,0 +1,81 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(220, 207, 20), rgb(181, 17, 39));
+}
+.box{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(255, 255, 255);
+    padding: 18px;
+    border-radius: 15px;
+    width: 50%;
+
+}
+fieldset{
+    border: 3px solid darkgoldenrod;
+}
+legend{
+    border: 1px solid darkgoldenrod;
+    padding: 10px;
+    text-align: center;
+    background-color: darkgoldenrod;
+    border-radius: 8px;
+    color: beige;
+}
+.inputBox{
+    position: relative;
+}
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(234, 255, 0);
+    outline: rgb(92, 0, 0);
+    color: darkgoldenrod;
+    font-size: 16px;
+    width: 50%;
+}
+.labelinput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5px;
+}
+.inputUser:focus ~ .labelinput,
+.inputUser:valid ~ .labelinput{
+    top: -20px;
+    font-size: 12px;
+    color: darkgoldenrod;
+}
+#data_de_dascimento{
+    border: 3px solid darkgoldenrod;
+    padding: 8px;
+    border-radius: 10px;
+    outline: 15px;
+    font-size: 15px;
+}
+#submit{
+    background-image: linear-gradient(to right, rgb(220, 207, 20), rgb(181, 17, 39));
+    width: 100%;
+    border: none;
+    padding: 7px;
+    color: wheat;
+    font-size: 19px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#submit:hover{
+    background-image: linear-gradient(to right, rgb(193, 28, 28), rgb(112, 20, 12));
+}
+@media screen and (max-width: 488px){
+
+};
+@media screen and (max-width: 768px){
+    ::selection. aside
+        width: 100%;
+        padding: 0;
+}
+    
+   
